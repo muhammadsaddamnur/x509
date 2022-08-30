@@ -9,7 +9,11 @@ environment:
 dependencies:
   asn1lib: ^1.0.0
   quiver: ^3.0.0
-  crypto_keys: '>=0.2.0 <0.4.0'
+  # crypto_keys: '>=0.2.0 <0.4.0'
+  crypto_keys:
+    git:
+      url: https://github.com/muhammadsaddamnur/crypto_keys.git
+      ref: master # branch name
 
 dev_dependencies:
   test: ^1.0.0
